@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.seismos.pentesigma.seismos.StatisticsActivity"
+    tools:showIn="@layout/activity_statistics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+        <include layout="@layout/summary_layout"
+            android:id="@+id/summary_layout" />
+
+        <include layout="@layout/summary_mag_layout"
+            android:id="@+id/summary_mag_layout" />
+
+        <include
+            layout="@layout/summary_layout48" />
+
+        <include
+            layout="@layout/summary_mag_layout48" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

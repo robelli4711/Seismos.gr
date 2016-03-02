@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="Map"
+        android:entries="@array/pref_list_MapTypes"
+        android:entryValues="@array/pref_example_list_values"
+        android:key="maptype_list"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Save"
+        android:title="@string/pref_title_maptypes" />
+
+    <ListPreference
+        android:defaultValue="Zoom"
+        android:entries="@array/pref_list_zoom"
+        android:entryValues="@array/pref_zoom_list_values"
+        android:key="zoom_list"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Save"
+        android:title="@string/pref_title_zoom" />
+
+</PreferenceScreen>

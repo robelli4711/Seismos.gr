@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin_big"
+    app:cardCornerRadius="@dimen/activity_vertical_margin"
+    app:cardElevation="@dimen/activity_vertical_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:paddingTop="20dp">
+
+
+    <LinearLayout
+        android:id="@+id/text_eventcount48_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:descendantFocusability="afterDescendants"
+        android:elevation="10dp">
+
+        <TextView
+            android:id="@+id/text_eventcount48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99"
+            android:textColor="@color/design_textinput_error_color"
+            android:textSize="@dimen/text_gigantic"
+            style="@style/MagnitudeOverlayText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earthquakes last 48 hours"
+            android:layout_gravity="center_vertical|right"
+            android:paddingLeft="20dp"
+            android:textSize="@dimen/text_gigantic_smaller" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

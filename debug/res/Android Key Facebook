@@ -1,0 +1,6 @@
+Last login: Wed Feb 17 07:27:45 on console
+CHROMTA:~ robertniederer$
+CHROMTA:~ robertniederer$ keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+Enter keystore password:  beta1234
+ga0RGNYHvNM5d0SLGQfpQWAPGJ8=
+CHROMTA:~ robertniederer$

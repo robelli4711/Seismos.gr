@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_aroundme"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="_aroundme"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_share_1"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Share"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_maptype_1"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Maptype"
+        app:showAsAction="always" />
+
+</menu>
+
